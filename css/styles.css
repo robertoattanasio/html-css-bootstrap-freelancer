@@ -1,0 +1,62 @@
+/* CLASSI MODULARI */
+.borders {
+  height: 100px;
+  border: 1px solid black;
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+
+/* HEADER TOP BAR */
+.header-top-bar-bg {
+  height: 100px;
+  background-color: #2f3e4e;
+}
+
+.header-top-bar {
+  line-height: 100px;
+  color: white;
+}
+
+/* HEADER */
+.header-bg {
+  background-color: #57b99d;
+  color: white;
+}
+
+/* PORTFOLIO */
+.portfolio-bg {
+  background-color: white;
+}
+
+/* ABOUT */
+.about-bg {
+  background-color: #57b99d;
+  color: white;
+}
+
+/* CONTACT */
+.contact-bg {
+  background-color: white;
+  color: black;
+}
+
+/* FOOTER TOP */
+.footer-top-bg {
+  background-color: #3f546b;
+  color: white;
+}
+
+/* COPYRIGHT */
+.copyright-bg {
+  background-color: #2f3e4e;
+  color: white;
+}
