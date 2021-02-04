@@ -31,6 +31,11 @@ a:hover {
   padding: 50px 0;
 }
 
+.wrapper {
+  width: 50%;
+  margin: 0 auto;
+}
+
 /* TIPOGRAFIA */
 h1.title {
   font-size: 54px;
@@ -219,7 +224,12 @@ button.about {
   color: black;
 }
 
-/* FOOTER TOP */
+ .about-padding {
+   padding: 30px 0;
+   width: 100%;
+ }
+
+ /* FOOTER TOP */
 .footer-top-bg {
   background-color: #3f546b;
   color: white;
@@ -274,5 +284,30 @@ a.footer-link:hover {
 
   .row .paragraph:nth-child(even) {
     margin-top: 20px;
+  }
+
+  h3.footer-title {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  /* RESIZE LOGO */
+  .logo {
+    font-size: 14px;
+  }
+
+  h2.title {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .row .paragraph:nth-child(even) {
+    margin-top: 20px;
+  }
+
+  h3.footer-title {
+    margin-top: 40px;
   }
 }
