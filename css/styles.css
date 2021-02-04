@@ -31,6 +31,7 @@ a:hover {
   padding: 50px 0;
 }
 
+/* TIPOGRAFIA */
 h1.title {
   font-size: 54px;
   font-weight: bold;
@@ -46,6 +47,18 @@ h2.title {
 h3.sub-title {
   font-size: 20px;
   font-weight: bold;
+}
+
+h3.footer-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h4.footer {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: normal;
 }
 
 /* CUSTOM STAR DIVIDER */
@@ -212,8 +225,36 @@ button.about {
   color: white;
 }
 
+a.footer-link:link,
+a.footer-link:active,
+a.footer-link:visited {
+  color: #57b99d;
+}
+
+a.footer-link:hover {
+  text-decoration: underline;
+}
+
+.footer-social i {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  padding-top: 12px;
+  font-size: 20px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.footer-social a i:hover {
+  border: 2px solid white;
+  background-color: white;
+  color: black;
+  transition: 0.2s;
+}
+
 /* COPYRIGHT */
 .copyright-bg {
+  padding: 20px 0;
   background-color: #2f3e4e;
   color: white;
 }
