@@ -10,9 +10,15 @@ body {
   scroll-behavior: smooth;
 }
 
-a:hover, a:link, a:active, a:visited {
+a:link, a:active, a:visited {
   text-decoration: none;
   color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+  transition: 0.2s;
 }
 
 /* CLASSI MODULARI */
@@ -173,13 +179,25 @@ img.porfolio-image {
 
 .portfolio-cell:hover .overlay {
   display: inline;
-  /* transition: 1s; */
+  transition: 1s;
 }
 
 /* ABOUT */
 .about-bg {
   background-color: #57b99d;
   color: white;
+}
+
+.paragraph {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+button.about {
+  color: white;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 /* CONTACT */
@@ -210,5 +228,9 @@ img.porfolio-image {
     font-size: 32px;
     font-weight: bold;
     text-transform: uppercase;
+  }
+
+  .row .paragraph:nth-child(even) {
+    margin-top: 20px;
   }
 }
