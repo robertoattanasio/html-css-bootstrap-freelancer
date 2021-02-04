@@ -15,6 +15,11 @@
   text-align: right;
 }
 
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
 /* HEADER TOP BAR */
 .header-top-bar-bg {
   height: 100px;
