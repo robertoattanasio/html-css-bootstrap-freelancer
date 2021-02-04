@@ -70,7 +70,7 @@ div.custom-divider {
 
 div.divider-line-white {
   height: 4px;
-  width:100px;
+  width: 100px;
   margin-bottom: 10px;
   display: inline-block;
   overflow: hidden;
@@ -85,7 +85,7 @@ span.star-divider-white {
 
 div.divider-line-black {
   height: 4px;
-  width:100px;
+  width: 100px;
   margin-bottom: 10px;
   display: inline-block;
   overflow: hidden;
@@ -178,14 +178,14 @@ img.porfolio-image {
   height: 100%;
   padding: 5px;
   border-radius: 20px;
-  background-color: rgba(87,185,157,0.9);
+  background-color: rgba(87, 185, 157, 0.9);
 }
 
 .overlay-symbol {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   font-size: 100px;
   color: white;
 }
@@ -260,6 +260,7 @@ a.footer-link:hover {
 }
 
 @media screen and (max-width: 767px) {
+
   /* RESIZE LOGO */
   .logo {
     font-size: 14px;
