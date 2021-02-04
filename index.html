@@ -4,40 +4,60 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
   <title>Bootstrap</title>
 </head>
 
 <body>
   <!-- TOP BAR -->
-  <div class="container-fluid header-top-bar-bg">
-    <div id="header-top-bar" class="wrapper">
+  <div id="header-top-bar" class="header-top-bar-bg navbar-fixed-top">
+    <div class="container">
       <div class="row header-top-bar">
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 left borders">LOGO</div>
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 right borders">NAV</div>
+        <div class="col-xs-6 text-left logo">START BOOTSTRAP</div>
+        <div class="col-md-6 visible-md-block visible-lg-block text-right">
+          <nav class="desktop">
+            <ul>
+              <li><a href="">Portfolio</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-xs-6 hidden-md hidden-lg text-right">
+          <nav class="mobile">
+            <span class="glyphicon glyphicon-menu-hamburger"></span>
+          </nav>
+        </div>
+
       </div>
     </div>
   </div>
 
   <!-- HEADER -->
-  <div class="container-fluid header-bg">
-    <div id="header" class="wrapper">
-      <div class="row header">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center borders">IMG</div>
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center borders">H1</div>
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center borders">SYMBOL</div>
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center borders">H2</div>
+  <div id="header" class="header-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 text-center borders">IMG</div>
+        <div class="col-xs-12 text-center borders">H1</div>
+        <div class="col-xs-12 text-center borders">SYMBOL</div>
+        <div class="col-xs-12 text-center borders">H2</div>
       </div>
     </div>
   </div>
 
   <!-- PORTFOLIO -->
-  <div class="container-fluid portfolio-bg">
-    <div id="portfolio" class="wrapper">
+  <div id="portfolio" class="portfolio-bg">
+    <div class="container">
       <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center borders">TITLE</div>
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center borders">SYMBOL</div>
+        <div class="col-xs-12 text-center borders">TITLE</div>
+        <div class="col-xs-12 text-center borders">SYMBOL</div>
       </div>
       <div class="row">
         <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 borders">IMG</div>
@@ -51,28 +71,28 @@
   </div>
 
   <!-- ABOUT -->
-  <div class="container-fluid about-bg">
-    <div id="about" class="wrapper">
+  <div id="about" class="about-bg">
+    <div class="container">
       <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center borders">H1</div>
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center borders">SYMBOL</div>
+        <div class="col-xs-12 text-center borders">H1</div>
+        <div class="col-xs-12 text-center borders">SYMBOL</div>
       </div>
       <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 borders">PARAGRAPH</div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 borders">PARAGRAPH</div>
       </div>
       <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center borders">BUTTON</div>
+        <div class="col-xs-12 text-center borders">BUTTON</div>
       </div>
     </div>
   </div>
 
   <!-- CONTACT ME -->
-  <div class="container-fluid contact-bg">
-    <div id="contact" class="wrapper">
+  <div id="contact" class="contact-bg">
+    <div class="container">
       <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center borders">H1</div>
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center borders">SYMBOL</div>
+        <div class="col-xs-12 text-center borders">H1</div>
+        <div class="col-xs-12 text-center borders">SYMBOL</div>
       </div>
       <div class="row">
         <form>
@@ -99,21 +119,21 @@
   </div>
 
   <!-- FOOTER -->
-  <div class="container-fluid footer-top-bg">
-    <div id="footer-top" class="wrapper">
+  <div id="footer-top" class="footer-top-bg">
+    <div class="container">
       <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 center borders">LOCATION</div>
-        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 center borders">SOCIAL</div>
-        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 center borders">ABOUT</div>
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center borders">LOCATION</div>
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center borders">SOCIAL</div>
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center borders">ABOUT</div>
       </div>
     </div>
   </div>
 
   <!-- COPYRIGHT -->
-  <div class="container-fluid copyright-bg">
-    <div id="copyright" class="wrapper">
+  <div id="copyright" class="copyright-bg">
+    <div class="container-fluid ">
       <div class="row">
-        <div class="col-lg-12 center borders">COPYRIGHT</div>
+        <div class="col-xs-12 text-center borders">COPYRIGHT</div>
       </div>
     </div>
   </div>
